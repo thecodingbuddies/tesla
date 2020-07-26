@@ -1,0 +1,26 @@
+/* ================== App ================== */
+
+.Game {
+  display: flex;
+  height: 100%;
+}
+
+.Game-logo {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.Game-mainContent {
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Game-sidebar {
+  flex: 0 0 300px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+}

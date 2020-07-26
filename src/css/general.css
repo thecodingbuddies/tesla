@@ -1,7 +1,26 @@
 * {
+  font-family: system;
 }
 
 html,
-body {
+body,
+#app {
+  margin: 0;
+  padding: 0;
   background-color: var(--color_background);
+  height: 100%;
+}
+
+/* ================== HEADINGS ================== */
+h1 {
+  font-family: 'Gasalt', sans-serif;
+}
+
+h2 {
+  font-family: 'Gasalt', sans-serif;
+  font-size: 36px;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
 }

@@ -1,0 +1,74 @@
+/* ================== Upgrade ================== */
+
+.Upgrade {
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.Upgrade + .Upgrade {
+  margin-top: 10px;
+}
+
+.Upgrade-info {
+  flex: 1;
+}
+
+.Upgrade-cost {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+.Upgrade-costIcon {
+  width: 12px;
+  height: 15px;
+  margin-right: 3px;
+}
+.Upgrade-name {
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.Upgrade-description {
+}
+
+.Upgrade-button {
+  position: relative;
+  background: var(--color_main);
+  border: none;
+  padding: 8px 20px;
+  color: #000000;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Upgrade-button:disabled {
+  background: #8b8b8b;
+  cursor: not-allowed;
+}
+
+.Upgrade-buttonText {
+  position: relative;
+  z-index: 2;
+}
+
+.Upgrade-buttonShadow {
+  z-index: 0;
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 50%;
+  border-radius: 2px 2px 0 0;
+  width: calc(100% - 4px);
+  height: calc(51% - 2px);
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.3);
+}

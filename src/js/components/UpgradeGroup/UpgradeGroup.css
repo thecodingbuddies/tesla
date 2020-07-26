@@ -1,0 +1,47 @@
+/* ================== UpgradeGroup ================== */
+
+.UpgradeGroup {
+  background: #202837;
+  border-radius: 10px;
+}
+
+.UpgradeGroup + .UpgradeGroup {
+  margin-top: 10px;
+}
+
+.UpgradeGroup-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.UpgradeGroup-title {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.UpgradeGroup-button {
+  border: 0;
+  background: transparent;
+  fill: #ffffff;
+  outline: 0;
+  transition: all 250ms ease-in-out;
+  transform: rotate(0deg);
+}
+
+.UpgradeGroup.is-open .UpgradeGroup-button {
+  transform: rotate(180deg);
+}
+
+.UpgradeGroup-content {
+  display: none;
+  padding: 10px 15px;
+}
+
+.UpgradeGroup.is-open .UpgradeGroup-content {
+  display: block;
+}
